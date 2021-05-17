@@ -286,7 +286,7 @@
                 key = 32;
             }
             switch (key) {
-                case 13: { // key enter (Jump) is pressed
+                case 32: case 13: { // key enter (Jump) is pressed
                     if (this.on_ground() && delta == 1) {
                         this.jumpfall = -12.0;
                         this.fastfall = false;
@@ -298,7 +298,7 @@
                     }
                 } break
 
-                case 32: case 528: if (delta > 0) { // key Lshift (Attack) is pressed
+                case 528: if (delta > 0) { // key Lshift (Attack) is pressed
                     console.log("stab input");
                     if (this.behavior != this.bhv_stab) {
                         this.behavior = this.bhv_stab;
