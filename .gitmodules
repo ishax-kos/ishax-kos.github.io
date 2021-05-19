@@ -2,3 +2,6 @@
 	path = Medium5e
 	url = https://github.com/ishax-kos/Medium5e
 	branch = main
+[submodule "classFinalCS133j"]
+	path = classFinalCS133j
+	url = ./classFinalCS133j
