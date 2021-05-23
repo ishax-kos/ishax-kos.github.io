@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa:400,700|Asul:400,700&display=swap');
 
 body{
-	background-color: #505050;
+	background-color: #000;
 	color: red;
 	margin: 0;
 	padding: 0;
 } .page{
 	box-sizing: border-box;
-	background-color: #ffffff;
+	background-color: #222;
 	margin: .5pc auto;
 	max-width: 64pc;
 	padding: 4pc;
@@ -26,7 +26,7 @@ body{
 	height: 100%;
 	width: 200px;
 } .menuChapter h1,.menuChapter h2,.menuChapter h3,.menuChapter h4 {
-	color: #423a27;
+	color: #5CE;
 	font-size: 11pt;
 	margin: 0.4pc 0;
 	padding: 0;
@@ -68,6 +68,20 @@ body{
 }
 
 
+a:link {
+    color: #abf
+}
+a:visited {
+    color: #d9f
+}
+a:hover {
+    color: 
+}
+a:active {
+    color: orangered
+}
+
+
 table{
 	table-layout: fixed;
 	margin: 0pc 2pc;
@@ -90,6 +104,8 @@ table{
 	background-color: #fff9e6;
 	font-weight: normal;
 }
+
+
 
 .mainTable thead tr:nth-child(1) th{
 	text-align: left;
@@ -116,7 +132,7 @@ table{
 
 p,ol,ul{
 	margin: 6pt 0pt 4pt;
-	color: #303030;
+	color: #EFE1D5;
 	font-size:	11pt;
 	font-family: "Asul", serif;
 	text-indent: 2pc;
@@ -156,7 +172,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1{
-	color:#B52A12;
+	color:#9CE;
 	margin-top:	16pt;
 	font-size:	32pt;
 	font-family: 'Aref Ruqaa', serif;
@@ -164,21 +180,21 @@ h1{
 }
 
 h2{
-	color:#303030;
+	color:#5CE;
 	margin-top:	12pt;
 	font-size:	24pt;
 	font-family: 'Aref Ruqaa', serif;
 }
 
 h3 {
-	color:#85200c;
+	color:#9CE;
 	margin-top:	8pt;
 	font-size:	16pt;
 	font-family: 'Aref Ruqaa', serif;
 }
 
 h4 {
-	color:#303030;
+	color:#9EC;
 	margin-top:	6pt;
 	font-size:	12pt;
 	font-weight: bolder;
@@ -209,7 +225,7 @@ div.smapleSpirits {
 	margin: .5pc;
 } .sidebar h3,.sidebar h4 {
 	text-align: center;
-	color: #85200c;
+	color: #5CE;
 	margin: 0;
 } .sidebar p {
 	padding: 0;
@@ -226,7 +242,7 @@ div.smapleSpirits {
 	margin: .5pc;
 } .sidebar2 h3,.sidebar2 h4 {
 	text-align: center;
-	color: #85200c;
+	color: #5CE;
 	margin: 0;
 } .sidebar2 p {
 	padding: 0;
