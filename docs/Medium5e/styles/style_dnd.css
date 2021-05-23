@@ -1,18 +1,7 @@
 /*<style type="text/css">*/
 @import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa:400,700|Asul:400,700&display=swap');
 
-body{
-	background-color: #505050;
-	color: red;
-	margin: 0;
-	padding: 0;
-} .page{
-	box-sizing: border-box;
-	background-color: #ffffff;
-	margin: .5pc auto;
-	max-width: 64pc;
-	padding: 4pc;
-} .menuChapter{
+.menuChapter{
 	box-sizing: border-box;
 	position: fixed;
 	right: 0;
@@ -20,13 +9,13 @@ body{
 	text-indent: 0;
 	margin: 0;
 	padding: 0pc .5pc 0pc;
-	background-color: #fffaf7;
+	background-color: #1A1A1A;
 	overflow-x: hidden;
 	overflow-y: auto;
 	height: 100%;
 	width: 200px;
 } .menuChapter h1,.menuChapter h2,.menuChapter h3,.menuChapter h4 {
-	color: #423a27;
+	color: #b3ffe5;
 	font-size: 11pt;
 	margin: 0.4pc 0;
 	padding: 0;
@@ -37,8 +26,8 @@ body{
 } .menuChapter a {
 	text-decoration: none;
 } .menuChapter h1 {
-	background-color: #423a27;
-	color: #fffaf7;
+	background-color: #fff9e6;
+	color: #1A1A1A;
 	border-radius: 20px;
 	padding: 2pt 6pt 2pt;
 	margin-left: 0pc;
@@ -61,7 +50,8 @@ body{
 	margin: 0;
 	font-size: 1.5pc;
 	padding: 1pc;
-	background-color: #fffaf7;
+	background-color: #1A1A1A;
+    color: #fff9e6;
 	overflow-x: hidden;
 	overflow-y: auto;
 	/* height: 100%; */
@@ -72,23 +62,23 @@ body{
 table{
 	table-layout: fixed;
 	margin: 0pc 2pc;
-	color: #303030;
+	color: #EFE1D5;
 	font-size: 11pt;
 	font-family: "Asul", serif;
 	border-collapse: collapse;
 } td, th{
 	padding: 2pt 4pt;
 	border-style: solid none;
-	border-color: #d9d9d9;
+	border-color: #222;
 	border-width: 1pt;
 	text-align: left;
 } thead th{
-	color: #ffffff;
-	background-color: #9F8E58;
+	color: #ffdec7;
+	background-color: #7a6d62;
 	font-weight: bold;
 	vertical-align: top;
 } tbody td,tbody th{
-	background-color: #fff9e6;
+	background-color: rgb(65, 62, 60);
 	font-weight: normal;
 }
 
@@ -110,14 +100,6 @@ table{
 } li{
 }
 
-p,ol,ul{
-	margin: 6pt 0pt 4pt;
-	color: #303030;
-	font-size:	11pt;
-	font-family: "Asul", serif;
-	text-indent: 2pc;
-}
-
 .titlenote {
 	font-family: "aref ruqaa";
 	font-style: italic;
@@ -137,11 +119,6 @@ p,ol,ul{
 	text-indent: 0;
 }
 
-h1,h2,h3,h4,h5,h6 {
-	margin: 0pc 1pc 0pc;
-	padding: 0pc;
-	font-weight: bold;
-}
 
 /*h1+h2,h2+h3,h3+h4,h4+h5,h5+h6 {
 	margin-top: .5pc;
@@ -149,38 +126,6 @@ h1,h2,h3,h4,h5,h6 {
 .page .title{
 	text-shadow: 2px 2px 4px #ffffffff;
 	text-decoration: underline;
-}
-
-h1{
-	color:#B52A12;
-	margin-top:	16pt;
-	font-size:	32pt;
-	font-family: 'Aref Ruqaa', serif;
-	text-align: center;
-}
-
-h2{
-	color:#303030;
-	margin-top:	12pt;
-	font-size:	24pt;
-	font-family: 'Aref Ruqaa', serif;
-}
-
-h3 {
-	color:#85200c;
-	margin-top:	8pt;
-	font-size:	16pt;
-	font-family: 'Aref Ruqaa', serif;
-}
-
-h4 {
-	color:#303030;
-	margin-top:	6pt;
-	font-size:	12pt;
-	font-weight: bolder;
-	font-family: 'Aref Ruqaa', serif;
-} h2+h4 {
-	margin-top: 2pt;
 }
 
 
@@ -205,14 +150,14 @@ div.sampleSpirits {
 	margin: .5pc;
 } .sidebar h3,.sidebar h4 {
 	text-align: center;
-	color: #85200c;
+	color: #d84426;
 	margin: 0;
 } .sidebar p {
 	padding: 0;
 	margin: 0;
 } .sidebar .sbBody {
 	border-style: solid none solid;
-	border-color: #85200c;
+	border-color: #d84426;
 	border-radius: 1.5pc;
 	margin: 0;
 	padding: 1pc .5pc;
@@ -233,4 +178,88 @@ div.sampleSpirits {
 	border-radius: 1.5pc;
 	margin: 0;
 	padding: 1pc .5pc;
+}
+
+
+
+body{
+    background-color: #000;
+    color: red;
+    margin: 0;
+    padding: 0;
+} .page{
+    box-sizing: border-box;
+    background-color: #222;
+    margin: .5pc auto;
+    max-width: 64pc;
+    padding: 4pc;
+}
+
+a:link {
+    color: #abf
+}
+a:visited {
+    color: #d9f
+}
+a:hover {
+    color: 
+}
+a:active {
+    color: orangered
+}
+
+
+p,ol,ul{
+    margin: 6pt 0pt 4pt;
+    color: #EFE1D5;
+    font-size:	11pt;
+    font-family: "Asul", serif;
+    text-indent: 2pc;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0pc 1pc 0pc;
+    padding: 0pc;
+    font-weight: bold;
+}
+
+/*h1+h2,h2+h3,h3+h4,h4+h5,h5+h6 {
+    margin-top: .5pc;
+}*/
+.page .title{
+    text-shadow: 2px 2px 4px #000;
+    text-decoration: underline;
+}
+
+h1{
+    color:#d84426;
+    margin-top:	16pt;
+    font-size:	32pt;
+    font-family: 'Aref Ruqaa', serif;
+    text-align: center;
+}
+
+h2{
+    color:#d84426;
+    margin-top:	12pt;
+    font-size:	24pt;
+    font-family: 'Aref Ruqaa', serif;
+}
+
+h3 {
+    color:#d84426;
+    margin-top:	8pt;
+    font-size:	16pt;
+    font-family: 'Aref Ruqaa', serif;
+}
+
+h4 {
+    color:#f3a15e;
+    margin-top:	6pt;
+    font-size:	12pt;
+    font-weight: bolder;
+    font-family: 'Aref Ruqaa', serif;
+} h2+h4 {
+    margin-top: 2pt;
 }
